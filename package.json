@@ -1,1 +1,28 @@
-{}
+{
+  "name": "anant",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anantkrd21/anant.git"
+  },
+  "keywords": [
+    "api",
+    "project"
+  ],
+  "author": "anant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anantkrd21/anant/issues"
+  },
+  "homepage": "https://github.com/anantkrd21/anant#readme",
+  "dependencies": {
+    "aws-sdk": "^2.980.0",
+    "querystring": "^0.2.1",
+    "uuid": "^8.3.2"
+  }
+}
