@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports.helloworld = async (event,context) => {
+module.exports.helloworldechoip = async (event,context) => {
   //getting request information from request Context
   const data = event.requestContext;
   var httpVal=data.http;
