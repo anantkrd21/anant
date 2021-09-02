@@ -1,8 +1,7 @@
 'use strict';
 
 module.exports.helloworld = async (event,context) => {
-  //extract data from event
-  var obj = JSON.stringify(event);
+  //getting request information from request Context
   const data = event.requestContext;
   var httpVal=data.http;
   //gettign user ip 
@@ -11,7 +10,7 @@ module.exports.helloworld = async (event,context) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: 'Hello World',
+        message: 'Hi '+sourceIp+" It's test api",
         sourceIp:sourceIp
       },
       null,

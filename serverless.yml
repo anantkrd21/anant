@@ -19,11 +19,11 @@ provider:
   region: ap-south-1
 
 functions:
-  helloworld:
-    handler: handler.helloworld
+  helloworldechoip:
+    handler: handler.helloworldechoip
 #    Code for create apis
 
     events:
       - httpApi:
-          path: /v1/helloworld
+          path: /v1/testechoip
           method: get
